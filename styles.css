@@ -95,7 +95,7 @@ label{
     border-radius: 5rem;
     text-align: left;
     height: 3rem;
-    padding: 0 10rem 0 2em;
+    padding: 1rem 10rem 1rem 2em;
 
     font-weight: 300;
     margin: 1rem 1rem 3rem 1rem;
@@ -213,7 +213,6 @@ button img{
 
     p{
         text-align: justify;
-        margin-left: 0;
         font-size: 1.25rem;
         width: 40vw;
         margin-left: 5rem;
@@ -251,14 +250,40 @@ button img{
 
     #emails{
         width: 40vw;
-        padding: 0 18rem 0 2em;
+        padding: 2rem 18rem 2rem 2em;
         margin-left: 5rem;
+        margin-top: -10rem;
     }
 
     button{
 
-        right: -1rem;
+        padding: 2rem 3rem 2rem 3rem;
+        right: 1rem;
+        transform: translateY(-1.5rem);
       
+    }
+
+    .error{
+        top: 0;
+        right: 7.5rem;
+        transform: translateY(-0.5rem);
+    
+        height: 2rem;
+        width: 2rem;
+
+        border: none;
+    }
+    
+    .check{
+        top: 0;
+        right: 7.5rem;
+        transform: translateY(-0.5rem);
+    
+        height: 2rem;
+        width: 2rem;
+
+        border: none;
+
     }
 
     .hero-mobile{
